@@ -14,12 +14,12 @@ import re
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "5964615337:AAFEFoOA2OZqZsmC8jc6i3sts75137YIdng")
+api_hash = os.environ.get("HASH", "ab6f9f397bdd0c5c26f7fa419e1a205f") 
+api_id = os.environ.get("ID", "23148191")
 OWNER_ID = os.environ.get("OWNER_ID", "")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "god_luffy_ati")
 PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "-100")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
 UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", ""))
